@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "outDir": "./dist/",
+    "baseUrl": "./src/web/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es5",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "typeRoots" : ["./typings", "./node_modules/@types"]
+  }
+}
